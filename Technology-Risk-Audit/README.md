@@ -1,95 +1,80 @@
 # Technology Risk & IT Audit Portfolio
 
-## 1. Professional Profile: **Digital Trust & Risk Specialist**
+## 1. Professional Narrative: **The Digital Security Guard**
 
-I specialize in navigating the intersection of **high-stakes business processes** and **complex IT environments** to ensure the **integrity, confidentiality, and availability** of critical data—key objectives of robust **IT General Controls (ITGC)** frameworks.  
-My approach is rooted in the **diligent evaluation of internal controls** and the use of **slow, deliberate analytical inquiry** (**System 2 thinking**) to identify and mitigate technical vulnerabilities that may be overlooked by fast, intuitive judgment.
+I specialize in ensuring the **integrity, confidentiality, and availability** of critical data within **complex IT environments**, aligning with modern **IT General Controls (ITGC)** practices that safeguard how systems and data are accessed, changed, and operated.
+My approach focuses on moving from fast, intuitive **“System 1” thinking** (jumping to conclusions) to slow, deliberate **“System 2” thinking**—a mode used to **question assumptions**, interrogate evidence, and uncover **hidden risks** that are often ignored by default mental shortcuts. 
 
 ---
 
-## 2. Technical Audit Domains
+## 2. Core Technical Frameworks
 
 ### 2.1 Domain Overview
 
-| **Domain**              | **Focus Area**                                              | **Risk Mitigation Objective** |
-|-------------------------|-------------------------------------------------------------|--------------------------------|
-| **ITGC Framework**      | **Manage Access**, **Manage Changes**, **IT Operations**    | Preventing **unauthorized modifications** to core databases and ensuring overall **system reliability**. |
-| **Business Process Risk** | **Order to Cash (O2C)** and **Payroll Processing**        | Mitigating **inaccurate processing** and **data integrity** issues that can lead to **financial misstatement** in revenue and payroll accounts. |
-| **SDLC Governance**     | **Initiation**, **Development**, **UAT**, and **CCB Approval** | Enforcing **Segregation of Duties (SoD)** so that developers **cannot move their own code into production**, reducing fraud and error risk in change deployment. |
+| **Domain**              | **Focus**                                           | **Why It Matters** |
+|-------------------------|-----------------------------------------------------|---------------------|
+| **ITGCs**               | **Manage Access**, **Manage Changes**, **IT Operations** | Prevents **unauthorized people** from touching the **live code** or **production database**, and ensures systems run reliably. |
+| **Business Risk**       | **Order to Cash (O2C)** and **Payroll Processing**  | Prevents **inaccurate processing**, where applications fail to handle **money flows** correctly, reducing risk of **financial misstatement**. |
+| **Professional Skepticism** | **Questioning Mindset** & **Fact-Based Assessment** | Ensures we do not overlook **contrary evidence** or **unusual circumstances**, consistent with modern definitions of **professional skepticism** in auditing. |
 
-### 2.2 Control Themes
+### 2.2 How I Apply These Frameworks
 
-- **Access Controls:** Ensuring least privilege, proper provisioning, and periodic reviews to protect data from unauthorized access.
-- **Change Management:** Requiring documented requests, approvals, testing, and rollback plans for all changes to critical applications and infrastructure. 
-- **IT Operations Controls:** Backup, monitoring, and incident response to preserve availability and recoverability of key systems. 
+- **ITGCs:** Test whether access is restricted, changes are controlled, and IT operations (backups, monitoring) support system resilience.
+- **Business Process Risk:** Trace how **transactions** (orders, cash receipts, payroll runs) move through systems and identify where incorrect logic or control gaps could lead to **wrong amounts** being posted.
+- **Professional Skepticism:** Maintain a **questioning attitude**, actively seeking information that might **challenge management’s assertions** rather than simply confirm them.
 
 ---
 
-## 3. Case Study: **“PayNow” Change Management Audit**
+## 3. Case Study: **PayNow Change Management Audit**
 
 **Objective:**  
-Evaluate the **Change Management lifecycle** for the **PayNow** application to ensure **financial reporting reliability** and demonstrate that only **authorized, tested changes** reach production.
+Audit the **“PayNow”** application so that **software updates** do not **break the system** or **create opportunities for fraud**, directly impacting the reliability of financial processing.  
 
-### 3.1 Investigative Methodology
+### 3.1 The 4‑Stage Audit Journey
 
-- **Workflow Deconstruction**  
-  - Mapped the full lifecycle from **business unit requests** through **development**, **QA/UAT**, and final **production deployment**.  
-  - Identified control points where approvals, documentation, and evidence should exist (e.g., tickets, sign-offs, test results).
+1. **Initiation**  
+   - Checked **how business units request changes**, including:  
+     - Is there a **formal request** or ticket?  
+     - Are **business justifications**, risk assessments, and approvals documented?  
 
-- **UAT Independence Audit**  
-  - Assessed whether **User Acceptance Testing (UAT)** was performed by **competent, independent testers** separate from the development team to minimize biased results and self-review threats. 
-  - Reviewed evidence such as **UAT scripts**, **defect logs**, and **sign-off emails**.  
+2. **Development**  
+   - Ensured **Segregation of Duties (SoD)** so programmers **do not have direct access** to **live production source code** or the production environment.  
+   - Verified that changes are developed in **non‑production environments**, following proper **version control** and **peer review** where applicable.
 
-- **CCB Governance Review**  
-  - Evaluated the **Change Control Board (CCB)** mandate and criteria for **final migration approval**, including:  
-    - Membership and independence.  
-    - Required documentation (UAT results, impact assessment, back-out plans).  
-    - Controls preventing **unauthorized changes after testing**, such as locked build artifacts and deployment logs.
+3. **User Acceptance Testing (UAT)**  
+   - Verified that **testers are independent** from the developers and have sufficient **business knowledge** to validate functionality.  
+   - Assessed whether the **UAT environment mirrors production** (data, configurations) closely enough to make test results reliable.
 
-### 3.2 Outcome Focus
+4. **CCB Approval (Change Control Board)**  
+   - Ensured that the **CCB** only approves changes when there is **solid proof of successful testing**, including:  
+     - UAT sign‑offs, defect resolution logs, and impact analyses.  
+     - Evidence that only the **approved build** is moved to production, with no last‑minute changes bypassing the process.  
 
-The audit work was geared toward demonstrating that **PayNow** supports **accurate, complete, and authorized financial transactions**, directly impacting **financial statement assertions** of accuracy, completeness, and authorization.  
-
----
-
-## 4. Analytical Methodology: **The Art of the Inquiry**
-
-Effective technology risk auditing requires moving beyond intuitive **“System 1”** shortcuts toward **“System 2” thinking**—a slow, deliberate mode of reasoning essential for questioning assumptions and uncovering hidden risk.
-
-### 4.1 Probing Inquiry Framework
-
-I used a **“Probing Inquiry”** framework to surface **veiled issues** in the PayNow change process, focusing on **control design** and **control execution**. Example high-impact questions:
-
-- **Segregation of Duties & Deployment Risk**  
-  - *“What prevents a developer from moving their own code changes directly into production without going through the rest of this process?”*  
-- **Change Integrity & Completeness**  
-  - *“How do you verify that only the approved code was migrated and no unauthorized modifications were included?”*  
-- **Evidence for Governance Bodies**  
-  - *“What specific evidence is presented to the CCB to demonstrate that UAT was completed successfully?”*  
-
-These questions are designed to **stress-test ITGCs and SDLC controls**, rather than accepting process descriptions at face value.
+This end‑to‑end review ensures PayNow changes are **authorized, tested, and controlled**, which is a core requirement of effective **ITGC change management**. 
 
 ---
 
-## 5. Cognitive Bias Mitigation
+## 4. The **Art of Inquiry** (My Practical Work)
 
-To maintain **objective judgment**, I apply a **critical thinking framework** focused on recognizing and mitigating common **audit and risk assessment biases**:
+Rather than relying solely on a checklist, I developed **Probing Inquiries** to uncover **“veiled issues”** that might not appear in standard documentation. This approach is aligned with the concept of **professional skepticism**—a questioning mind and critical assessment of evidence. 
 
-- **Confirmation Bias**  
-  - Actively seek data that could **disconfirm** initial hypotheses or management narratives, rather than only evidence that supports them. 
+### 4.1 Sample Probing Questions
 
-- **Groupthink**  
-  - Encourage **healthy challenge and dissent** during walkthroughs and team discussions so individual auditors retain a sense of **personal responsibility** for conclusions, rather than deferring to consensus.  
+- **On Deployment & SoD**  
+  - *“What prevents a developer from moving their own code changes directly into production?”*  
 
-- **Boundary Bias**  
-  - Clarify the **true boundaries of the system and process under review**, distinguishing between **real constraints** and **assumed ones**, so that relevant data sources and risk areas are not excluded by habit or convenience. 
+- **On Tester Independence**  
+  - *“How is the independence of the software testers ensured?”*  
 
-These practices align with modern **behavioral risk** and **cognitive bias** guidance that emphasizes the need to consciously engage **System 2** thinking when making high-stakes risk judgments. 
+- **On Evidence for Governance**  
+  - *“What specific evidence is presented to the CCB to show testing was successful?”*  
+
+These questions are designed to **stress‑test controls**, reveal **hidden shortcuts**, and ensure that the documented process matches **actual practice** in the PayNow change lifecycle.
 
 ---
 
-## 6. Program Context
+## 5. Program Context
 
-This portfolio section documents work completed during the **EY Technology Risk Job Simulation on Forage**, focused on **ITGC evaluation**, **business process risk assessment**, and **SDLC governance** in a realistic change management scenario.
+This project was completed as part of the **EY Technology Risk Job Simulation on Forage**, focusing on **ITGC evaluation**, **change management**, and **professional skepticism** within a realistic application‑change scenario.
 
 ---
