@@ -93,24 +93,3 @@ These practices align with modern **behavioral risk** and **cognitive bias** gui
 This portfolio section documents work completed during the **EY Technology Risk Job Simulation on Forage**, focused on **ITGC evaluation**, **business process risk assessment**, and **SDLC governance** in a realistic change management scenario.
 
 ---
-
-## 7. Next Steps – What to Upload in This Folder
-
-After committing this **README**, the next step is to upload the specific **simulation work products** to complete the **Technology Risk & IT Audit** portfolio:
-
-1. **PayNow Workflow Analysis**  
-   - Your detailed breakdown of the **Initiation**, **Development**, **UAT**, and **CCB** stages, showing control points, evidence types, and key risks.  
-
-2. **Probing Inquiry List**  
-   - The full set of **high-impact audit questions** used to challenge the PayNow **change management** and **deployment** process.  
-
-3. **Critical Thinking / Bias Analysis Notes**  
-   - Any working notes on **System 2 thinking**, **bias identification**, and how you designed your audit approach to remain **independent, skeptical, and evidence-driven**.  
-
----
-
-## Summary
-
-- This portfolio positions me as a **Digital Trust & Technology Risk Specialist** with practical experience across **ITGC**, **business process risk**, and **SDLC governance**. 
-- The **PayNow case study** highlights your ability to deconstruct **change management workflows**, test **UAT independence**, and evaluate **CCB governance** for financial reporting impact.
-- By embedding **System 2 thinking** and **bias mitigation** into your audit approach, you demonstrate a **modern, analytical mindset** that aligns with leading practices in **technology risk and IT audit**.
